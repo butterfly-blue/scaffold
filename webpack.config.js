@@ -47,7 +47,7 @@ module.exports = (env = {}) => {
       new HtmlWebpackPlugin({
         filename: 'index.html',
         chunks: isProduction ? ['runtime~index', 'vendors', 'index'] : ['index'],
-        title: 'RxJS Demo',
+        title: 'Demo',
         template: 'public/index.html'
       })
     ]
